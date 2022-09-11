@@ -1,0 +1,27 @@
+.author {
+    display: flex;
+    align-items: center;
+    gap: 16px
+}
+.authorPicture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.authorInformation {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.authorName {
+    color: white;
+    font-size: 16px;
+}
+
+.authorTitle {
+    color: #FFFFFF;
+    opacity: 0.6;
+}

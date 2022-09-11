@@ -1,0 +1,10 @@
+.postInformationHeader {
+    font-family: 'Patrick Hand';
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    align-items: center;
+    gap: 12px;
+}

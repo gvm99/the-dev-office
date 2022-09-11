@@ -1,0 +1,60 @@
+.appNavbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.appLogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 3
+}
+
+.appSearch {
+    flex: 3;
+}
+
+@media screen and (max-width: 400px) {
+    .appSearch input{
+        width: 90%;
+    }    
+}
+
+.appLogoImage {
+    width: 35px;
+    height: auto;
+}
+  
+.menuList{
+    display: flex;
+    list-style: none;
+    gap:16px
+}
+
+.menuItem{
+    cursor: pointer
+}
+
+.appSearch {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.inputSearch {
+    font-family: 'Patrick Hand', 'FontAwesome';
+    font-size: 16px;
+    width: 224px;
+    height: 40px;
+    background-color: #1F293799;
+    color: white;
+    border-radius:100px;
+    border: 0px;
+    padding-left: 17px;
+    display: flex;
+    gap: 17px;
+}

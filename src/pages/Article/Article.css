@@ -1,0 +1,46 @@
+.articleInformation, .articleContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articleInformation h2 {
+    max-width: 520px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Patrick Hand';
+    font-weight: 400;
+    line-height: 38px;
+    margin: 0;
+    /* or 158% */
+    color: #FFFFFF;
+}
+
+.articleContent p {
+    max-width: 710px;
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+
+    color: #FFFFFF;
+}
+
+.articleContent img {
+    max-width: 810px;
+    height: auto;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:1000px) {
+    .articleContent img {
+        width: 90%;
+        height: auto;
+    }
+    .articleContent p {
+        width: 80%;
+    }
+}

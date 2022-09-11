@@ -1,0 +1,57 @@
+.mainPost {
+    font-family: 'Patrick Hand';
+    display: flex;
+    gap: 31px;
+    align-items: center;
+}
+
+.thumbnail {
+    width: 710px;
+    height: 389px;
+    border-radius: 20px;
+}
+
+.articleTitle {
+    font-size: 24px;
+    font-family: 'Patrick Hand';
+    font-weight: 400;
+    line-height: 38px;
+    /* or 158% */
+    color: #FFFFFF;
+}
+
+.articleSubtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width:1000px) {
+    .mainPost {
+        font-family: 'Patrick Hand';
+        display: flex;
+        gap: 31px;
+        align-items: center;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .thumbnail {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+    .articleSubtitle, .articleTitle {
+        width: 100%;
+    }
+}
+
+
+.dot {
+    width: 4px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 100px;
+}
+

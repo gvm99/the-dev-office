@@ -1,0 +1,12 @@
+.allPosts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+  
+@media only screen and (max-width: 730px) {
+    .allPosts {
+        justify-content: center;
+    }
+}
